@@ -1,0 +1,46 @@
+/* Background + Font */
+body {
+    background-color: black;
+    color: #00ffcc;
+    font-family: "Courier New", monospace;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #00ffcc;
+}
+
+/* Links (choices) */
+a {
+    display: inline-block;
+    color: #00ffcc;
+    text-decoration: none;
+    border: 1px solid #00ffcc;
+    padding: 8px 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Hover effect */
+a:hover {
+    background-color: #00ffcc;
+    color: black;
+}
+
+/* Paragraph spacing */
+p {
+    margin: 10px 0;
+}
+
+/* Hidden message box */
+details {
+    margin-top: 20px;
+    border: 1px dashed #00ffcc;
+    padding: 10px;
+
+    text-shadow: 0 0 5px #00ffcc;
+
+    letter-spacing: 1px;
+}
